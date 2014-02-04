@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
 	grunt.initConfig({
-		// running `grunt less` will compile once
+		// running `grunt less` will compile once.
 		less: {
 			development: {
 				options: {
