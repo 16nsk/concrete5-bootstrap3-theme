@@ -10,10 +10,16 @@
     "grunt-contrib-uglify": "~0.3.2",
     "grunt-contrib-watch": "~0.5.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-phplint": "0.0.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Olivier Langelaar",
-  "license": "ISC"
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/olivierlangelaar/concrete5-bootstrap3-theme.git"
+  }
 }

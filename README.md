@@ -18,7 +18,9 @@ Use grunt to watch changes in less, js and php files and reload with LiveReload
 grunt watch
 ```
 
-## LiveReload
+## Watch tasks
+
+### LiveReload
 
 In elements/footer.php change the line containing
 
@@ -26,21 +28,21 @@ In elements/footer.php change the line containing
 
 to your own needs
 
-## less
+### less
 less files are 
 
 -   css/less/project.less
 -   css/less/stuff.less
 -   css/less/variables.less
 
-## css 
+### css 
 
 css/project.css get updated automaticly by grunt everytime you save any of the above less files
 
 project.less overwrites bootstraps variables.less from the build/bower_components/bootstrap/less/ dir and creates project.css containing bootstraps css and your own styles from project.less and or stuff.less
 
 
-## jshint
+### jshint
 
 grunt watches all js files in
 
@@ -49,6 +51,16 @@ grunt watches all js files in
 for errors
 
 these are included in the elements/footer.php, for minified production js see below
+
+### phplint
+
+grunt watches all php files in
+
+-   ./
+-   ./elements
+
+for errors
+
 
 ## uglify
 

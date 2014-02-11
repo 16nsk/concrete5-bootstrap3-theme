@@ -14,6 +14,13 @@ module.exports = function(grunt) {
 
 
 	},
+
+    phplint: {
+        options: {
+            swapPath: './'
+        },
+        all: ['../*.php', '../elements/*.php']
+    },	
 		uglify: {
 		    my_target: {
 		      files: [{
@@ -47,6 +54,7 @@ module.exports = function(grunt) {
     	},
     	php: {
     		files: "../**/*.php",
+    		tasks: ["phplint"],
     		options :{
     			livereload:true,
     		},
@@ -60,8 +68,11 @@ module.exports = function(grunt) {
 		},
 	}
 });
+
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks("grunt-phplint");
+
 };

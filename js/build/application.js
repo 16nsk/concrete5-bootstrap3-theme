@@ -10,8 +10,9 @@
 // menu.
 var percent = 0;
 function progressBar() {
-	var bar = $('.pg1');
+	var bar = $('.pg1'), pc = $('.percentage-counter');
 	bar.css({width:percent+'%'});
+	pc.html(percent+'% Complete');
 	//console.log(percent);
 	percent = percent +1;
 	if (percent>100) {

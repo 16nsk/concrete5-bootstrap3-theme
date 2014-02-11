@@ -1,37 +1,48 @@
 <?php  
 defined('C5_EXECUTE') or die("Access Denied.");
 $this->inc('elements/header.php'); ?>
-<div class="top">
+<div class="container-fluid">
 
-    <h1>Pickmedia Bootstrap 3 Theme for Concrete5</h1>
-    <p>Compile less with grunt</p>
-    <p>Watch folders & Livereload</p>
-<!-- Standard button -->
-<button type="button" class="btn btn-default">Default</button>
+  <div class="row top">
+    <div class="col-sm-12">
+      <h1>Pickmedia Bootstrap 3 Theme for Concrete5</h1>
+      <p>Compile less with grunt</p>
+      <p>Watch folders & Livereload</p>
+      <!-- Standard button -->
+      <button type="button" class="btn btn-default">Default</button>
 
-<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-<button type="button" class="btn btn-primary">Primary</button>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-primary">Primary</button>
 
-<!-- Indicates a successful or positive action -->
-<button type="button" class="btn btn-success">Success</button>
+      <!-- Indicates a successful or positive action -->
+      <button type="button" class="btn btn-success">Success</button>
 
-<!-- Contextual button for informational alert messages -->
-<button type="button" class="btn btn-info">Info</button>
+      <!-- Contextual button for informational alert messages -->
+      <button type="button" class="btn btn-info">Info</button>
 
-<!-- Indicates caution should be taken with this action -->
-<button type="button" class="btn btn-warning">Warning</button>
+      <!-- Indicates caution should be taken with this action -->
+      <button type="button" class="btn btn-warning">Warning</button>
 
-<!-- Indicates a dangerous or potentially negative action -->
-<button type="button" class="btn btn-danger">Danger</button>
+      <!-- Indicates a dangerous or potentially negative action -->
+      <button type="button" class="btn btn-danger">Danger</button>
 
-<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-<button type="button" class="btn btn-link">Link</button>
+      <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+      <button type="button" class="btn btn-link">Link</button>
+    </div>
+  </div>
 
+
+  <div class="row">
+    <div class="col-sm-4 box"><img class="img-responsive" src="http://placehold.it/350x150"><h1>Lorem Ipsum</h1><p>Lorem Ipsum Lorem Ipsum Lorem Ipsum </p></div>
+    <div class="col-sm-4 box"><img class="img-responsive" src="http://placehold.it/350x150"><h1>Lorem Ipsum</h1><p>Lorem Ipsum Lorem Ipsum Lorem Ipsum </p></div>
+    <div class="col-sm-4 box"><img class="img-responsive" src="http://placehold.it/350x150"><h1>Lorem Ipsum</h1><p>Lorem Ipsum Lorem Ipsum Lorem Ipsum </p></div>
+  </div>
 </div>
+
 
 	<!-- Carousel
 ================================================== -->
-<div id="myCarousel" class="carousel slide hidden-xs">
+<div id="myCarousel" class="carousel slide">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -94,38 +105,9 @@ $this->inc('elements/header.php'); ?>
 
  <div class="progress progress-striped active ">
   <div class="progress-bar pg1"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 1%">
-    <span class="sr-only">45% Complete</span>
+    <span class="percentage-counter">45% Complete</span>
   </div>
 </div>
 
-<div class="container">
-<div class="row">
-  <div class="col-md-1 bg-primary box">.col-md-1 bg-primary</div>
-  <div class="col-md-1 bg-primary">.col-md-1 bg-primary</div>
-  <div class="col-md-1 bg-primary">.col-md-1 bg-primary</div>
-  <div class="col-md-1 bg-primary">.col-md-1 bg-primary</div>
-  <div class="col-md-1 bg-primary">.col-md-1 bg-primary</div>
-  <div class="col-md-1 bg-primary">.col-md-1 bg-primary</div>
-  <div class="col-md-1 bg-primary">.col-md-1 bg-primary</div>
-  <div class="col-md-1 bg-primary">.col-md-1 bg-primary</div>
-  <div class="col-md-1 bg-primary">.col-md-1 bg-primary</div>
-  <div class="col-md-1 bg-primary">.col-md-1 bg-primary</div>
-  <div class="col-md-1 bg-primary">.col-md-1 bg-primary</div>
-  <div class="col-md-1 bg-primary">.col-md-1 bg-primary</div>
-</div>
-<div class="row">
-  <div class="col-md-8 bg-success">.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success</div>
-  <div class="col-md-4 bg-success">.col-md-4 bg-success.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success</div>
-</div>
-<div class="row">
-  <div class="col-md-4 bg-info">.col-md-4 bg-info.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success</div>
-  <div class="col-md-4 bg-info">.col-md-4 bg-info.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success</div>
-  <div class="col-md-4 bg-info">.col-md-4 bg-info.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success</div>
-</div>
-<div class="row">
-  <div class="col-md-6 bg-warning">.col-md-6 bg-warning.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success</div>
-  <div class="col-md-6 bg-warning">.col-md-6 bg-warning.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success.col-md-8 bg-success</div>
-</div>
-</div>
 
 <?php   $this->inc('elements/footer.php'); ?>
