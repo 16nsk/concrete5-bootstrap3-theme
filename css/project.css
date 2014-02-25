@@ -7237,13 +7237,16 @@ td.visible-print {
   background-color: #eeeeee;
 }
 .box h1 {
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
 .row {
   padding-bottom: 30px;
   padding-top: 30px;
+}
+.boxpadding {
+  margin-bottom: 30px;
 }
 .collapse .navbar-text.login {
   margin-bottom: 0;
