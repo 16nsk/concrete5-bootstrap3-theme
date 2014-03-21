@@ -1,8 +1,16 @@
 <?php  
 defined('C5_EXECUTE') or die("Access Denied.");
+///////////////////////////////////////////////
 //GRID LAYOUT TRHOUGH ATTRIBUTES testing...
+//
+// Create page attribute textbox style
+// Create a layout on http://shoelace.io/
+// Name all rows and columns uniquely
+// Copy Jade formatted to attribute
+//
+/////////////////////////////////////////////
 $page = Page::getCurrentPage(); // get pageobject
-$string = $page->getAttribute('bootstrap_pm_row_test2'); //get attribute
+$string = $page->getAttribute('bootstrap_pm_row_test2'); //SET ATTRIBUTE HANDLE HERE
 $array = array();
 $lastindex = null;
 $lastcolname = null;

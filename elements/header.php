@@ -10,6 +10,7 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
     <?php Loader::element('header_required'); ?>
     <!-- Bootstrap -->
     <link href="<?php print $this->getThemePath(); ?>/css/project.css" rel="stylesheet">
+    
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
