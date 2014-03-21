@@ -1,4 +1,19 @@
 ////////////////////////
+// Beteckna font
+////////////////////////
+@font-face {
+    font-family: 'betecknalowercaseitalic';
+    src: url('../fonts/beteckna/betecknalowercaseitalic-webfont.eot');
+    src: url('../fonts/beteckna/betecknalowercaseitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/beteckna/betecknalowercaseitalic-webfont.woff') format('woff'),
+         url('../fonts/beteckna/betecknalowercaseitalic-webfont.ttf') format('truetype'),
+         url('../fonts/beteckna/betecknalowercaseitalic-webfont.svg#betecknalowercaseitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+////////////////////////
 // MIXINS
 ////////////////////////
 .box-shadow(@style, @c) when (iscolor(@c)) {
@@ -27,7 +42,7 @@
 }
 .row{
 	padding-bottom: @grid-gutter-width;
-	padding-top: @grid-gutter-width;
+	//padding-top: @grid-gutter-width;
 }
 .boxpadding{
   margin-bottom: @grid-gutter-width;

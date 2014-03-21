@@ -13,5 +13,5 @@ $this->inc('elements/header.php');
     <span class="percentage-counter">45% Complete</span>
   </div>
 </div>
-
+</div>
 <?php   $this->inc('elements/footer.php'); ?>

@@ -103,5 +103,5 @@ $this->inc('elements/header.php'); ?>
     </div>
   </div>
 </div>
-
+</div>
 <?php   $this->inc('elements/footer.php'); ?>
