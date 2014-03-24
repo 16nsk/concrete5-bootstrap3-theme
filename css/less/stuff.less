@@ -14,31 +14,15 @@
 }
 
 ////////////////////////
-// MIXINS
-////////////////////////
-.box-shadow(@style, @c) when (iscolor(@c)) {
-  -webkit-box-shadow: @style @c;
-  -moz-box-shadow:    @style @c;
-  box-shadow:         @style @c;
-}
-.box-shadow(@style, @alpha: 50%) when (isnumber(@alpha)) {
-  .box-shadow(@style, rgba(0, 0, 0, @alpha));
-}
-.border-radius-custom (@topleft: 5px, @topright: 5px, @bottomleft: 5px, @bottomright: 5px) {
-    -webkit-border-radius: @topleft @topright @bottomright @bottomleft;
-    -moz-border-radius: @topleft @topright @bottomright @bottomleft;
-    border-radius: @topleft @topright @bottomright @bottomleft;
-    padding: @topleft @topright @bottomright @bottomleft;
-}
-////////////////////////
 // Styles
 ////////////////////////
 .box {
   color: saturate(@text-color, 5%);
   border-color: lighten(@text-color, 30%);
-  h1 { .box-shadow(0 0 1px, 30%) }
-  .border-radius-custom(20px, 20px, 20px, 20px);
-  background-color: @gray-lighter;
+  //.border-radius-padding(20px, 20px, 20px, 20px);
+  .lh-border-radius(5px);
+  background-color: @gray-light;
+  padding:10px;
 }
 .row{
 	padding-bottom: @grid-gutter-width;

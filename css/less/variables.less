@@ -1,14 +1,9 @@
+//////////////////////////////////
 // Override Bootstrap variables //
 //////////////////////////////////
-// Font vars
-//@font-family-sans-serif:  "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif;
-@font-family-sans-serif:  "betecknalowercaseitalic","Lucida Sans Unicode",Arial,sans-serif;
-@link-color: #08c;
-@text-color:@gray-dark;
-//@text-color:pink;
 
-
-
+// Fonts
+@font-family-sans-serif:  "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif;
 // Override Font-Awesome variables (path relative to project.css position)
 @fa-font-path: "../build/bower_components/font-awesome/fonts";
 // Override Glyphicon path
@@ -17,13 +12,17 @@
 
 // Branding color vars
 @btn-default-border: #bbb;
-@brand-primary: #EE3225;
+@brand-primary:@fg-color; 
 
 // Body colors
-@body-bg: #FFF;
+@body-bg: #fff;
 
+//////////////////////////////////
+// PROJECT VARIABLES            //
+//////////////////////////////////
 
-
-//Project specific variables
-@my-customname-float-breakpoint: @grid-float-breakpoint;
-@my-favourite-color: rgb(228, 1, 1);
+// Colors
+@fg-color: #EE3225;
+@bg-color: #fff;
+@link-color: #08c;
+@text-color:@gray-dark;

@@ -66,14 +66,14 @@ module.exports = function(grunt) {
 			files: "../css/less/*.less",
 			tasks: ["less", "cssmin"],
 			options: {
-	      		livereload: true,
+	      		livereload: 35722,
 	    	},
     	},
     	php: {
     		files: "../**/*.php",
     		tasks: ["phplint"],
     		options :{
-    			livereload:true,
+    			livereload:35722,
     		},
     	},
     	scripts: {
