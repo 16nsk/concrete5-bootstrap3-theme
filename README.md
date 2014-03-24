@@ -5,6 +5,7 @@ _Far from perfect or finished but a good starting point_
 -   Bootstrap 3
 -	FontAwesome
 -	Grunt with jshint, less, uglify, watch
+-	[Bootstrap Carousel] by Oliver Green
 
 ## Usage
 Install with node and bower from build dir
@@ -24,7 +25,7 @@ grunt watch
 
 In elements/footer.php change the line containing
 
-`<script src="http://localhost.nl:35729/livereload.js"></script>`
+`<script src="http://localhost.nl:35722/livereload.js"></script>`
 
 to your own needs
 
@@ -71,3 +72,10 @@ grunt uglify
 ```
 
 you can use these minified .js files for production
+
+License
+----
+MIT
+
+
+[Bootstrap Carousel]:https://github.com/olsgreen/concrete5-bootstrap-carousel
