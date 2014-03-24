@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap_pm",
+  "version": "0.0.1",
+  "description": "Concrete5 Boostrap 3 Theme PickMedia",
+  "authors": [
+    "Olivier Langelaar"
+  ],
+  "license": "MIT",
+  "homepage": "pickmedia.nl",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.0",
+    "font-awesome": "~4.0.3",
+    "requirejs": "~2.1.10",
+    "lesshat": "~2.0.15"
+  }
+}
