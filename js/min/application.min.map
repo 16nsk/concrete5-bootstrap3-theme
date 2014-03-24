@@ -1,1 +1,0 @@
-{"version":3,"file":"application.min.js","sources":["../build/application.js"],"names":["progressBar","bar","$","pc","css","width","percent","html","setInterval"],"mappings":"AAWA,QAASA,eACR,GAAIC,GAAMC,EAAE,QAASC,EAAKD,EAAE,sBAC5BD,GAAIG,KAAKC,MAAMC,QAAQ,MACvBH,EAAGI,KAAKD,QAAQ,cAEhBA,SAAmB,EACfA,QAAQ,MACXA,QAAQ,GARV,GAAIA,SAAU,CAYdJ,GAAE,WACFM,YAAYR,YAAa"}
