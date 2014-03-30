@@ -12,7 +12,8 @@
   },
   "devDependencies": {
     "grunt-phplint": "0.0.5",
-    "grunt-contrib-cssmin": "~0.9.0"
+    "grunt-contrib-cssmin": "~0.9.0",
+    "grunt-contrib-coffee": "~0.10.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

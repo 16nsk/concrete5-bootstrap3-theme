@@ -4,7 +4,7 @@ _Far from perfect or finished but a good starting point_
 ### Includes
 -   Bootstrap 3
 -	FontAwesome
--	Grunt with jshint, less, uglify, watch
+-	Grunt with CoffeeScipt, jshint, less, uglify, watch
 -	[Bootstrap Carousel] by Oliver Green
 
 ## Usage
@@ -43,15 +43,16 @@ css/project.css get updated automaticly by grunt everytime you save any of the a
 project.less overwrites bootstraps variables.less from the build/bower_components/bootstrap/less/ dir and creates project.css containing bootstraps css and your own styles from project.less and or stuff.less
 
 
-### jshint
+### CoffeeScript
 
-grunt watches all js files in
+grunt watches all coffee files in
 
--   js/build/
+-   js/coffee/
 
 for errors
 
-these are included in the elements/footer.php, for minified production js see below
+these compile to js/build/
+all js in js/build/ gets minified to js/min/ with source maps
 
 ### phplint
 
@@ -62,16 +63,6 @@ grunt watches all php files in
 
 for errors
 
-
-## uglify
-
-to minify all js in js/build/ to js/min/ run:
-
-```shell
-grunt uglify
-```
-
-you can use these minified .js files for production
 
 License
 ----

@@ -50,6 +50,14 @@ module.exports = function(grunt) {
 	    },
     	all: ['../js/build/**/*.js']
   	},
+	coffee: {
+	  compile: {
+	    files: {
+	      '../js/build/application.js': '../js/coffee/application.coffee', // 1:1 compile
+	      '../js/build/stuff.js': '../js/coffee/stuff.coffee' // 1:1 compile
+	    }
+	  }
+  	},	  	
 	cssmin: {
 	  add_banner: {
 	    options: {
@@ -76,11 +84,12 @@ module.exports = function(grunt) {
     			livereload:35722,
     		},
     	},
-    	scripts: {
-		    files: ['../js/build/**/*.js'],
-		    tasks: ['jshint', 'uglify'],
+    	js: {
+		    files: ['../js/coffee/*.coffee'],
+		    tasks: ['coffee', 'jshint', 'uglify'],
 		    options: {
 		    	spawn: false,
+		    	livereload:35722
 		    },
 		},
 	}
@@ -92,5 +101,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks("grunt-phplint");
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
-
+	grunt.loadNpmTasks('grunt-contrib-coffee');
 };
