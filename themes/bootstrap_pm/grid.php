@@ -5,9 +5,10 @@ $this->inc('elements/header.php');
 
 <div class="container-fluid">
 
-<?php $this->inc('elements/bootstrap_grid.php');?>
-
-
+<?php 
+  $this->controller->set('attrhandle', 'attribute_handle'); //attribute handle
+  $this->inc('elements/bootstrap_grid.php');  //include grid
+?>
  <div class="progress progress-striped active ">
   <div class="progress-bar pg1"  role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width: 1%">
     <span class="percentage-counter">45% Complete</span>
