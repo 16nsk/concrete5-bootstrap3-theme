@@ -10,7 +10,7 @@ defined('C5_EXECUTE') or die("Access Denied.");
 //
 /////////////////////////////////////////////
 $page = Page::getCurrentPage(); // get pageobject
-$string = $page->getAttribute('bootstrap_pm_row_test2'); //SET ATTRIBUTE HANDLE HERE
+$string = $page->getAttribute($attrhandle); //SET ATTRIBUTE HANDLE HERE
 $array = array();
 $lastindex = null;
 $lastcolname = null;
