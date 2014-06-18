@@ -3,9 +3,9 @@
 _Far from perfect or finished but a good starting point_
 ### Includes
 -   Bootstrap 3
--	FontAwesome
--	Grunt with CoffeeScipt, jshint, less, uglify, watch
--	[Bootstrap Carousel] by Oliver Green
+-   FontAwesome
+-   Grunt with CoffeeScipt, jshint, less, uglify, watch
+-   [Bootstrap Carousel] by Oliver Green
 
 ## Usage
 Install with node and bower from build dir
